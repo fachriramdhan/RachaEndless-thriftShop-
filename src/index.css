@@ -1,0 +1,11 @@
+@import "tailwindcss";
+
+/* Optional: custom utilities / overrides */
+:root {
+  --brand-emerald: #059669;
+}
+
+/* small helper for card */
+.card-shadow {
+  @apply shadow-sm border border-gray-200 bg-white rounded-lg overflow-hidden;
+}
