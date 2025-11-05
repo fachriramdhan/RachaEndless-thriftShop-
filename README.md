@@ -1,16 +1,58 @@
-# React + Vite
+# 🛍️ Racha Endless - ThriftShop
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Website katalog fashion online yang dibuat menggunakan **ReactJS + TailwindCSS v4**.  
+Menampilkan produk fashion preloved (jaket, sepatu, rok, aksesoris) dengan desain modern, responsif, dan interaktif.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Fitur Utama
 
-## React Compiler
+- Filter produk berdasarkan kategori (Sepatu, Aksesoris, Rok, dsb)
+- Popup interaktif untuk akun & favorit
+- Integrasi tombol WhatsApp dan Shopee
+- Tampilan **mobile friendly** (dengan bottom navigation)
+- Desain mengikuti **tren web 2025**: minimalis, bersih, dan elegan
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## ⚙️ Teknologi yang Digunakan
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- **ReactJS (Vite)**
+- **TailwindCSS v4**
+- **FontAwesome Icons**
+- **HTML5 & JSX Components**
+
+---
+
+## 🧭 Panduan Instalasi
+
+### 1️⃣ Clone repositori ini
+git clone https://github.com/fachriramdhan/RachaEndless-thriftShop-.git
+
+## Masuk ke folder project
+cd RachaEndless-thriftShop-
+
+## Install dependensi
+npm install
+
+## Jalankan project
+npm run dev
+
+## Setelah itu buka browser dan akses:
+http://localhost:5173/
+
+## 💡 Struktur Folder
+RachaEndless-thriftShop-
+│
+├── src/
+│   ├── components/        # Komponen UI
+│   ├── assets/            # Gambar dan icon
+│   ├── App.jsx            # Komponen utama
+│   └── main.jsx           # Entry point React
+│
+├── public/                # File statis
+├── package.json           # Konfigurasi npm
+└── README.md              # Dokumentasi project
+
+## ✨ Kontributor
+Fachri Ramdhan – Frontend Developer
